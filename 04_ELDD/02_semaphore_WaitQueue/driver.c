@@ -1,3 +1,22 @@
+/*
+*                   CDAC HYDERABAD LAB EXAM, JULY 2022
+*           **************************************************
+*
+*2. KERNEL SYNCHRONIZATION MECHANISMS FOR MULTIPLE DEVICES
+*
+* a. Write a Character Driver for Multiple Devices and create two device numbers. 
+*    Use Semaphore to protect the Critical section (write activity) and Use WaitQueue to avoid 
+*    consecutive write operations.
+* b. Maintain a Kernel Buffer of 50 bytes to Read and Write Data.  
+* c. Put write function to sleep using WaitQueue after successful write operation before releasing semaphore.
+* d. Wake-up sleep (waitqueues) operation only in Read function.
+* e. Write two separate programs for Read and Write for each device.
+*  
+*   AUTHOR      - Abhinav Tyagi
+*   EMAIL ID    - erabhinavtyagi@gmail.com
+*  
+*/
+
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>
