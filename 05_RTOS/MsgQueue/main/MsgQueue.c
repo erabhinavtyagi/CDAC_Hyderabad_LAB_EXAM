@@ -1,5 +1,16 @@
-// CREATE TASK 1,2,3,4,5 ; DELAY = 1000,2000,5000 RESPECTIVELY.
-// SEND INTEGER DATA FROM TASK 4 TO 5 USING MESSAGE QUEUE
+/*
+*                   CDAC HYDERABAD LAB EXAM, AUG 2022
+*           **************************************************
+*
+*1. Create 3 realtime tasks each with the periodcity T1=1000ms, T2=2000ms, T3=5000ms.
+*   Also create two additional task T4 and T5 where T4 sends integer data to T5 using Messsage Queues.
+*   Priorities of Tasks T1,T2,T3,T4,T5 are 5,6,7,8,9 respectively.
+*
+*   AUTHOR      - Abhinav Tyagi
+*   EMAIL ID    - erabhinavtyagi@gmail.com
+*  
+*/
+
 
 #include <stdio.h>
 #include <freertos/FreeRTOS.h>
