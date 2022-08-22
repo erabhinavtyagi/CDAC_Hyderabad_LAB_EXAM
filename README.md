@@ -59,3 +59,13 @@ Do following operations :
     - Put write function to sleep using WaitQueue after successful write operation before releasing semaphore.
     - Wake-up sleep (waitqueues) operation only in Read function.
     - Write two separate programs for Read and Write for each device.
+
+## Real Time Operating Systems
+
+1. Create 3 realtime tasks each with the periodcity T1=1000ms, T2=2000ms, T3=5000ms.
+Also create two additional task T4 and T5 where T4 sends integer data to T5 using Messsage Queues.
+Priorities of Tasks T1,T2,T3,T4,T5 are 5,6,7,8,9 respectively.
+
+2. Create 3 realtime tasks each with the periodcity T1=1000ms, T2=2000ms, T3=5000ms. 
+Also create use oneshot software timer to trigger a callback function from T3 after 10000ms.
+Priorities of Tasks T1,T2,T3 are 5,6,7 respectively.
