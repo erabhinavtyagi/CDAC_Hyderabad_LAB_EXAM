@@ -69,3 +69,18 @@ Priorities of Tasks T1,T2,T3,T4,T5 are 5,6,7,8,9 respectively.
 2. Create 3 realtime tasks each with the periodcity T1=1000ms, T2=2000ms, T3=5000ms. 
 Also create use oneshot software timer to trigger a callback function from T3 after 10000ms.
 Priorities of Tasks T1,T2,T3 are 5,6,7 respectively.
+
+## IOT Hackathon 
+
+Time limit: 48hours & using kits provided by CDAC only. No other components allowed.
+
+1. To design and develop "Smart Weather Monitoring System"
+2. To design and develop "Metal Detection System"
+3. To design and develop "Smart Home"
+
+## Data Structures & Algorithms
+
+1. Create a Linked List with data "4,6,7,8,9" and add 11 at the end.
+2. Program for insertion sort.
+3. Sort a Stack having values. 
+    Input :  8 5 7 1 9 12 10
