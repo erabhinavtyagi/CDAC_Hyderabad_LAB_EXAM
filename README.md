@@ -82,5 +82,5 @@ Time limit: 48hours & using kits provided by CDAC only. No other components allo
 
 1. Create a Linked List with data "4,6,7,8,9" and add 11 at the end.
 2. Program for insertion sort.
-3. Sort a Stack having values. 
+3. Sort a Stack having following values. 
     Input :  8 5 7 1 9 12 10
